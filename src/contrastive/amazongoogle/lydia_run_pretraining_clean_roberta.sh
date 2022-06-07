@@ -12,11 +12,11 @@ python3 run_pretraining_deepmatcher.py \
     --do_train \
 	--dataset_name=amazon-google \
 	--clean=True \
-    --train_file="/w/284/lydiachau/phrase-matching-nlp/data/processed/amazon-google/contrastive/amazon-google-train.pkl.gz" \
-	--id_deduction_set="/w/284/lydiachau/phrase-matching-nlp/data/interim/amazon-google/amazon-google-train.json.gz" \
+    --train_file="/w/284/deepkamal/phrase-matching-nlp/data/processed/amazon-google/contrastive/amazon-google-train.pkl.gz" \
+	--id_deduction_set="/w/284/deepkamal/phrase-matching-nlp/data/interim/amazon-google/amazon-google-train.json.gz" \
 	--tokenizer="roberta-base" \
 	--grad_checkpoint=True \
-    --output_dir="/w/284/lydiachau/phrase-matching-nlp/reports/contrastive/amazongoogle-clean-$AUG$BATCH-$LR-$TEMP-roberta-base/" \
+    --output_dir="/w/284/deepkamal/phrase-matching-nlp/reports/contrastive/amazongoogle-clean-$AUG$BATCH-$LR-$TEMP-roberta-base/" \
 	--temperature=$TEMP \
 	--per_device_train_batch_size=$BATCH \
 	--learning_rate=$LR \

@@ -28,10 +28,10 @@ from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils import check_min_version
 from transformers.utils.versions import require_version
 
-from src.contrastive.models.modeling import ContrastivePretrainModel
-from src.contrastive.data.datasets import ContrastivePretrainDatasetDeepmatcher
-from src.contrastive.data.data_collators import DataCollatorContrastivePretrainDeepmatcher
-from src.contrastive.models.metrics import compute_metrics_bce
+from models.modeling import ContrastivePretrainModel
+from data.datasets import ContrastivePretrainDatasetDeepmatcher, ContrastivePretrainDataset
+from data.data_collators import DataCollatorContrastivePretrainDeepmatcher
+from models.metrics import compute_metrics_bce
 
 from transformers import EarlyStoppingCallback
 
@@ -195,6 +195,7 @@ def main():
             train_dataset = ContrastivePretrainDatasetDeepmatcher(train_dataset, tokenizer=model_args.tokenizer, intermediate_set=data_args.interm_file, clean=data_args.clean, dataset=data_args.dataset_name, deduction_set=data_args.id_deduction_set, aug=data_args.augment)
         else:
             train_dataset = ContrastivePretrainDatasetDeepmatcher(train_dataset, tokenizer=model_args.tokenizer, clean=data_args.clean, dataset=data_args.dataset_name, deduction_set=data_args.id_deduction_set, aug=data_args.augment)
+        print('train_dataset', train_dataset.__dir__())
 
     # Data collator
     data_collator = DataCollatorContrastivePretrainDeepmatcher(tokenizer=train_dataset.tokenizer)
@@ -214,7 +215,7 @@ def main():
         args=training_args,
         train_dataset=train_dataset if training_args.do_train else None,
         eval_dataset=validation_dataset if training_args.do_eval else None,
-        data_collator=data_collator,
+        # data_collator=data_collator,
         compute_metrics=compute_metrics_bce
     )
     trainer.args.save_total_limit = 1
@@ -224,10 +225,13 @@ def main():
 
         checkpoint = None
         if training_args.resume_from_checkpoint is not None:
+            print("-------------------------------")
             checkpoint = training_args.resume_from_checkpoint
         elif last_checkpoint is not None:
+            print("++++++++++++++++++++++++++++++++++")
             checkpoint = last_checkpoint
-        train_result = trainer.train(resume_from_checkpoint=checkpoint)
+        # train_result = trainer.train(resume_from_checkpoint=checkpoint)
+        train_result = trainer.train()
         trainer.save_model()  # Saves the tokenizer too for easy upload
 
         metrics = train_result.metrics

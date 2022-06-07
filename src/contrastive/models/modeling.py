@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from torch.nn import BCEWithLogitsLoss
 
 from transformers import AutoModel, AutoConfig
-from src.contrastive.models.loss import SupConLoss
+from models.loss import SupConLoss
 
 def mean_pooling(model_output, attention_mask):
     token_embeddings = model_output[0] #First element of model_output contains all token embeddings

@@ -58,6 +58,14 @@ def serialize_sample_amazongoogle(sample):
 
     return string
 
+def serialize_sample_patent(sample):
+    string = ''
+    string = f'{string}[COL] anchor [VAL] {" ".join(sample[f"anchor"].split())}'.strip()
+    string = f'{string} [COL] target [VAL] {" ".join(sample[f"target"].split())}'.strip()
+    string = f'{string} [COL] context [VAL] {" ".join(str(sample[f"context"]).split())}'.strip()
+
+    return string
+
 # Class for Data Augmentation
 class Augmenter():
     def __init__(self, aug):
@@ -113,7 +121,8 @@ class ContrastivePretrainDataset(torch.utils.data.Dataset):
         if self.aug:
             self.augmenter = Augmenter(self.aug)
 
-        data = pd.read_pickle(path)
+        # data = pd.read_pickle(path)
+        data = pd.read_csv('../../data/processed/patent/contrastive/train.csv', index_col='id')
 
         if dataset == 'abt-buy':
             data['brand'] = ''
@@ -149,7 +158,8 @@ class ContrastivePretrainDataset(torch.utils.data.Dataset):
             example['features'] = self.augmenter.apply_aug(example['features'])
             pos['features'] = self.augmenter.apply_aug(pos['features'])
 
-        return (example, pos)
+        print(example, pos)
+        return ("++++++++++++", example, pos)
 
     def __len__(self):
         return len(self.data)
@@ -165,14 +175,21 @@ class ContrastivePretrainDataset(torch.utils.data.Dataset):
         elif self.dataset == 'amazon-google':
             data['features'] = data.apply(serialize_sample_amazongoogle, axis=1)
 
+        elif self.dataset == 'patent':
+            data1 = pd.DataFrame()
+            data1['features'] = data[:-1].apply(serialize_sample_patent, axis=1)
+            print("--------------", data1)
+
         label_enc = LabelEncoder()
-        data['labels'] = label_enc.fit_transform(data['cluster_id'])
+        # data['labels'] = label_enc.fit_transform(data['cluster_id'])
+
+        data1['labels'] = data['score']
 
         self.label_encoder = label_enc
 
-        data = data[['features', 'labels']]
+        data1 = data1[['features', 'labels']]
 
-        return data
+        return data1
 
 # Dataset class for Contrastive Pre-training for Abt-Buy and Amazon-Google
 # builds correspondence graph from train+val and builds source-aware sampling datasets
@@ -189,7 +206,9 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
             self.augmenter = Augmenter(self.aug)
 
         print(path)
+        # path.seek(0)
         data = pd.read_pickle(path)
+        self.data = data
 
         if dataset == 'abt-buy':
             data['brand'] = ''
@@ -204,6 +223,8 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
                 val = pd.read_csv('../../data/interim/abt-buy/abt-buy-valid.csv')
             elif dataset == 'amazon-google':
                 val = pd.read_csv('../../data/interim/amazon-google/amazon-google-valid.csv')
+            elif dataset == 'patent':
+                val = pd.read_csv('../../data/interim/patent/patent-valid.csv')
 
             # use 80% of train and val set positives to build correspondence graph
             val_set = train_data[train_data['pair_id'].isin(val['pair_id'])]
@@ -225,11 +246,11 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
                 right = f'{row["id_right"]}'
                 found = False
                 for bucket in bucket_list:
-                    if left in bucket and row['label'] == 1:
+                    if left in bucket and row['label'] > 0.25:
                         bucket.add(right)
                         found = True
                         break
-                    elif right in bucket and row['label'] == 1:
+                    elif right in bucket and row['label'] > 0.25:
                         bucket.add(left)
                         found = True
                         break
@@ -257,6 +278,9 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
             elif dataset == 'amazon-google':
                 left_index = [x for x in index if 'amazon' in x]
                 right_index = [x for x in index if 'google' in x]
+            elif dataset == 'patent':
+                left_index = [x for x in index if 'patent_left' in x]
+                right_index = [x for x in index if 'patent_right' in x]
             
             # assing increasing integer label to single nodes
             single_entities = single_entities.reset_index(drop=True)
@@ -307,7 +331,7 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
             data2['labels'] = label_enc.transform(data2['cluster_id'])
 
             self.label_encoder = label_enc
-                
+
         data1 = data1.reset_index(drop=True)
 
         data1 = data1.fillna('')
@@ -341,8 +365,11 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
 
     def __getitem__(self, idx):
         # for every example, sample one positive from the respective sampling dataset
+
+        ### replace all data1 with data, labels with score --> DEEP'S EDIT
         example1 = self.data1.loc[idx].copy()
         selection1 = self.data1[self.data1['labels'] == example1['labels']]
+        # selection1 = self.data[self.data['score'] == example1['score']]
         # if len(selection1) > 1:
         #     selection1 = selection1.drop(idx)
         pos1 = selection1.sample(1).iloc[0].copy()
@@ -362,8 +389,10 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
 
         return ((example1, pos1), (example2, pos2))
 
+        # return ((example1, pos1), ("","" ))
+
     def __len__(self):
-        return len(self.data1)
+        return len(self.data)
     
     def _prepare_data(self, data):
 
@@ -375,6 +404,9 @@ class ContrastivePretrainDatasetDeepmatcher(torch.utils.data.Dataset):
 
         elif self.dataset == 'amazon-google':
             data['features'] = data.apply(serialize_sample_amazongoogle, axis=1)
+
+        elif self.dataset == 'patent':
+            data['features'] = data.apply(serialize_sample_patent, axis=1)
 
         data = data[['features', 'labels']]
 

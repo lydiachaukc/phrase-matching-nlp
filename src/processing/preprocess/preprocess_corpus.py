@@ -5,7 +5,7 @@ import random
 random.seed(42)
 import os
 
-from src.data import utils
+from data import utils
 
 if __name__ == '__main__':
 
@@ -24,4 +24,5 @@ if __name__ == '__main__':
 
     os.makedirs(os.path.dirname('../../../data/interim/wdc-lspc/corpus/'), exist_ok=True)
     corpus.to_pickle('../../../data/interim/wdc-lspc/corpus/preprocessed_english_corpus.pkl.gz')
+    corpus.seek(0)
     print('FINISHED BUILDING PREPROCESSED CORPUS...')

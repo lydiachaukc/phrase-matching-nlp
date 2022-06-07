@@ -46,11 +46,11 @@ def preprocess_dataset(arg_tuple):
         right = f'{row["rtable_id"]}'
         found = False
         for bucket in bucket_list:
-            if left in bucket and row['label'] == 1:
+            if left in bucket and row['label'] > 0.25:
                 bucket.add(right)
                 found = True
                 break
-            elif right in bucket and row['label'] == 1:
+            elif right in bucket and row['label'] > 0.25:
                 bucket.add(left)
                 found = True
                 break
@@ -72,9 +72,9 @@ def preprocess_dataset(arg_tuple):
     valid['ltable_id'] = f'{id_handle_left}_' + valid['ltable_id'].astype(str)
     valid['rtable_id'] = f'{id_handle_right}_' + valid['rtable_id'].astype(str)
 
-    train['label'] = train['label'].apply(lambda x: int(x))
-    test['label'] = test['label'].apply(lambda x: int(x))
-    valid['label'] = valid['label'].apply(lambda x: int(x))
+    train['label'] = train['label'].apply(lambda x: float(x))
+    test['label'] = test['label'].apply(lambda x: float(x))
+    valid['label'] = valid['label'].apply(lambda x: float(x))
 
     valid['pair_id'] = valid['ltable_id'] + '#' + valid['rtable_id']
 
@@ -82,11 +82,11 @@ def preprocess_dataset(arg_tuple):
 
     train_left = left_df.loc[list(train['ltable_id'].values)]
     train_right = right_df.loc[list(train['rtable_id'].values)]
-    train_labels = [int(x) for x in list(train['label'].values)]
+    train_labels = [float(x) for x in list(train['label'].values)]
 
     gs_left = left_df.loc[list(test['ltable_id'].values)]
     gs_right = right_df.loc[list(test['rtable_id'].values)]
-    gs_labels = [int(x) for x in list(test['label'].values)]
+    gs_labels = [float(x) for x in list(test['label'].values)]
 
     train_left = train_left.reset_index(drop=True)
     train_right = train_right.reset_index(drop=True)
@@ -126,7 +126,8 @@ def preprocess_dataset(arg_tuple):
     
 if __name__ == '__main__':
     datasets = [
-        ('amazon-google', 'amazon', 'google')
+        # ('amazon-google', 'amazon', 'google')
+        ('patent', 'patent_left', 'patent_right')
     ]
     # datasets = [
     #     ('abt-buy', 'abt', 'buy'),

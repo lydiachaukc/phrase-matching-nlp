@@ -77,21 +77,26 @@ class DataCollatorContrastivePretrainDeepmatcher:
     def __call__(self, input_both):
 
         rnd = random.choice([0,1])
-        input = [x[rnd] for x in input_both]
+        # input = [x[rnd] for x in input_both]
 
-        features_left = [x[0]['features'] for x in input]
-        features_right = [x[1]['features'] for x in input]
+        # features_left = [x[0]['features'] for x in input]
+        # features_right = [x[1]['features'] for x in input]
+        features = input_both.iloc[:-2]
+        print("++++++++++++++++", features)
 
-        labels = [x[0]['labels'] for x in input]
+        # labels = [x[0]['labels'] for x in input]
+        labels = input_both.iloc[-1]
 
-        batch_left = self.tokenizer(features_left, padding=True, truncation=True, max_length=self.max_length, return_tensors=self.return_tensors)
-        batch_right = self.tokenizer(features_right, padding=True, truncation=True, max_length=self.max_length, return_tensors=self.return_tensors)
+        # batch_left = self.tokenizer(features_left, padding=True, truncation=True, max_length=self.max_length, return_tensors=self.return_tensors)
+        # batch_right = self.tokenizer(features_right, padding=True, truncation=True, max_length=self.max_length, return_tensors=self.return_tensors)
         
-        batch = batch_left
+        # batch = batch_left
+
+        batch = self.tokenizer(features, padding=True, truncation=True, max_length=self.max_length, return_tensors=self.return_tensors)
         if 'token_type_ids' in batch.keys():
             del batch['token_type_ids']
-        batch['input_ids_right'] = batch_right['input_ids']
-        batch['attention_mask_right'] = batch_right['attention_mask']
+        # batch['input_ids_right'] = batch_right['input_ids']
+        # batch['attention_mask_right'] = batch_right['attention_mask']
 
         batch['labels'] = torch.LongTensor(labels)
 
