@@ -1,0 +1,1700 @@
+id,anchor,context
+0,abatement,A47
+1,abatement,A61
+2,abatement,A62
+3,abatement,C01
+4,abatement,F16
+5,abatement,F24
+6,abatement,F28
+7,abatement,H01
+8,abatement,H04
+9,abnormal position,B23
+10,abnormal position,B41
+11,abnormal position,D03
+12,abnormal position,E03
+13,absorbent properties,C08
+14,absorbent properties,D01
+15,absorbent properties,D21
+16,acan,C07
+17,accept information,A45
+18,achieve authentication,H04
+19,acid absorption,B01
+20,acid absorption,B08
+21,ack,G04
+22,ack,G06
+23,acoustooptic modulator,H01
+24,acrylate groups,D21
+25,activating position,A61
+26,activating position,B65
+27,activating position,G06
+28,acylate with acids,C07
+29,adapt for learning,G16
+30,adaptive linear,G01
+31,adaptive linear,H04
+32,adhesive mounting,A47
+33,adjacent laterally,A41
+34,adjacent laterally,B23
+35,adjust gas flow,C23
+36,adjust gas flow,F23
+37,adjustable multiple,B23
+38,adjustable multiple,B25
+39,aesthetic effects,A63
+40,aesthetic effects,D03
+41,agitate means,B01
+42,agitate means,B28
+43,air flow line,B63
+44,air flow line,F04
+45,air vent openings,B60
+46,align with input shaft,F16
+47,alpha gypsum,B32
+48,alphatic,C09
+49,aluminium compounds,C07
+50,aluminium compounds,C08
+51,alumino silicates,C02
+52,alumino silicates,G03
+53,ammonia recovery,C01
+54,ammonia recovery,C10
+55,androgen receptor modulators,C07
+56,angular contact bearing,B23
+57,angular contact bearing,B61
+58,angular contact bearing,C21
+59,angular contact bearing,F16
+60,angular contact bearing,F42
+61,angular contact bearing,G01
+62,animal fats,A23
+63,animal fats,C10
+64,animal fats,C11
+65,annular ends,B60
+66,annular neck,B29
+67,annular neck,B65
+68,annular neck,F02
+69,annular neck,G04
+70,antiatherosclerotic,C07
+71,antidiuretic,C07
+72,antigen composition,A61
+73,antigen composition,G01
+74,apart elongated,B62
+75,apart elongated,B64
+76,apart elongated,E21
+77,application messaging,G06
+78,apply on tube,F16
+79,apply to anode electrode,H01
+80,apply to muscle,A61
+81,apply to requests,H04
+82,appropriate adjustment,B24
+83,aralkynyl,C09
+84,arc type,B22
+85,arc type,B65
+86,arc type,G01
+87,arc type,H01
+88,arc type,H05
+89,arcade,A61
+90,arcade,A63
+91,arcuate means,B28
+92,arcuate means,D03
+93,arcuate means,H04
+94,arm design,B24
+95,arm design,F16
+96,arm roller,B27
+97,arm roller,B62
+98,arm roller,E04
+99,arrange in fashion,B21
+100,arrange in fashion,B23
+101,arrange in fashion,B41
+102,arrange in fashion,G03
+103,associated log,B27
+104,automatic coffee,A47
+105,auxiliary water,B28
+106,auxiliary water,D06
+107,auxiliary water,E03
+108,auxiliary water,F24
+109,average impact,B32
+110,average impact,G01
+111,average pore size,A61
+112,average pore size,B23
+113,average pore size,B24
+114,average pore size,B41
+115,average pore size,C01
+116,average pore size,C04
+117,average pore size,C10
+118,average pore size,D21
+119,average power ratio reduction,H04
+120,axial extension,A61
+121,axial extension,B05
+122,axial extension,D03
+123,axial extension,D06
+124,axle boxes,B22
+125,axle boxes,E21
+126,axle boxes,G01
+127,azabicyclo,C07
+128,azabicyclo,G01
+129,bandedge,G02
+130,bandedge,H01
+131,bandedge,H03
+132,base fuels,C10
+133,based interpolation,H04
+134,based method,C01
+135,based method,G01
+136,based method,G06
+137,based method,H04
+138,based propellant,C06
+139,based propellant,F02
+140,based writing,G11
+141,battery cell assembly,F28
+142,battery cell assembly,H01
+143,battery heater,H01
+144,battery monitoring circuit,G01
+145,beam traveling direction,H05
+146,belt shifting,D01
+147,belt shifting,D06
+148,belt shifting,F16
+149,belt shifting,G11
+150,biocytin,A61
+151,biocytin,C07
+152,biocytin,C12
+153,biomimetic,B25
+154,biomimetic,C07
+155,block selection signal,B41
+156,blooming drains,H01
+157,blooming drains,H04
+158,board id,G01
+159,board id,G06
+160,board id,H05
+161,board manufacture,C04
+162,boom hydraulic cylinder,E02
+163,brake arms,A63
+164,brake arms,B62
+165,brake arms,D01
+166,brake arms,F15
+167,breech mechanism,B25
+168,breech mechanism,B29
+169,broadband information,H04
+170,browsers,H04
+171,brush guard,A46
+172,brush guard,B60
+173,brush guard,B66
+174,buck converter circuit,H05
+175,buffer strip,F16
+176,cable securing,G02
+177,cable securing,H01
+178,cache segments,G06
+179,calibration status,G01
+180,calling card,G06
+181,calling card,G07
+182,calling card,G08
+183,calling card,H04
+184,cap component,B65
+185,cap component,D06
+186,cap component,F02
+187,cap component,F16
+188,carburization,B23
+189,carburization,C01
+190,carburization,C22
+191,carburization,F16
+192,carpet tiles,A47
+193,carpet tiles,B41
+194,carpet tiles,B44
+195,carpet tiles,B65
+196,carrier transportation,G03
+197,carrier transportation,H01
+198,carry by platform,A63
+199,carry by platform,B60
+200,carry by platform,B61
+201,carry by platform,E02
+202,carry by platform,E04
+203,carry by platform,E21
+204,carry by platform,F16
+205,carry by platform,G01
+206,catalyst paste,A61
+207,catalyst paste,B01
+208,catching surface,A01
+209,catching surface,B65
+210,catching surface,F03
+211,catheter distal end,B65
+212,cathode layer,B01
+213,cathode layer,C25
+214,cathode layer,G01
+215,cathode layer,G02
+216,cement composite,B28
+217,cement composite,C04
+218,central communication unit,G08
+219,central flow path,B01
+220,central flow path,F22
+221,central flow path,G05
+222,central flow path,G21
+223,central nucleus,C09
+224,cervical support,A47
+225,cervical support,A61
+226,cervical support,G02
+227,chagas disease,A61
+228,chagas disease,C07
+229,channel vectors,H04
+230,chemical activity,B01
+231,chemical activity,C04
+232,chemical activity,G21
+233,chemically modified polymers,C08
+234,chip form,D21
+235,chip form,H05
+236,chirped optical,G06
+237,churned,A01
+238,circumferential clamp,H01
+239,cleaner system,B07
+240,cleaner system,D03
+241,cleaner system,D06
+242,cleaner system,D21
+243,cleaner system,F02
+244,clear buffer,G02
+245,clock input,F41
+246,clock input,G04
+247,clock input,G05
+248,clock input,G07
+249,clocked storage,G01
+250,clocked storage,H03
+251,clods,A01
+252,clods,B07
+253,clods,B28
+254,clods,E01
+255,close gate,B65
+256,close gate,F03
+257,coat with conducting layer,C25
+258,coaxial cable transmission,H02
+259,coaxial cable transmission,H03
+260,cochineal,C13
+261,cold state,H01
+262,collator,B41
+263,collator,B65
+264,collator,G11
+265,collator,H04
+266,color difference signal,H03
+267,color difference signal,H04
+268,combination function,H04
+269,combine with optical elements,G02
+270,combine with optical elements,G11
+271,combustion elements,F22
+272,combustion elements,F24
+273,come into relation,B65
+274,comfortability,A41
+275,comfortability,B62
+276,committee,G06
+277,committee,G07
+278,committee,H04
+279,communicate through cavity,F01
+280,component composite coating,C08
+281,component composite coating,C09
+282,component control,A01
+283,component control,B60
+284,component control,B62
+285,component control,F15
+286,component control,G06
+287,component control,G21
+288,composite slurry,C04
+289,composite slurry,E21
+290,composite tile,C04
+291,composite tile,F27
+292,compression loss,F01
+293,compression loss,F04
+294,comprise in refinement,H02
+295,conduct cables,F16
+296,conduct conducting material,C04
+297,conductive position,B23
+298,conductor particles,B01
+299,conductor particles,H01
+300,conductor particles,H05
+301,congruency,C02
+302,conh2,C09
+303,conical path,B60
+304,conical path,G04
+305,connect to common conductor,B66
+306,connect to common conductor,H01
+307,connect to common conductor,H03
+308,connect to electrode structure,H01
+309,connect with conduits,B21
+310,connect with conduits,C14
+311,connect with conduits,F02
+312,connect with conduits,F16
+313,connected means,B23
+314,connected means,G02
+315,connecting lines,G08
+316,connecting lines,H01
+317,connecting lines,H03
+318,connecting lines,H05
+319,connection speeds,A63
+320,consist of oxalic acid,C04
+321,consist of oxalic acid,C23
+322,consist of selection,A63
+323,contact cable,B61
+324,contact cable,H01
+325,contain bacterial cells,C12
+326,contain based resin,B27
+327,contain based resin,B29
+328,contain based resin,C08
+329,contain based resin,H01
+330,contain elastomer,C08
+331,contain elastomer,C09
+332,contain sulfur compounds,A01
+333,contain sulfur compounds,B01
+334,contain sulfur compounds,C07
+335,contain sulfur compounds,C09
+336,contain sulfur compounds,C11
+337,contain sulfur compounds,H01
+338,container opener,A44
+339,container opener,B41
+340,container opener,B65
+341,container opener,B67
+342,container section,A24
+343,container section,B02
+344,container section,D01
+345,content analysis,B66
+346,content analysis,D21
+347,content analysis,H04
+348,control in steps,B24
+349,control in steps,G05
+350,cooled reaction,C09
+351,corresponding toothed,G06
+352,coupling arms,A44
+353,coupling arms,E05
+354,coupling arms,F16
+355,coupling arms,H03
+356,coupling factor,C04
+357,coupling factor,G01
+358,coupling factor,H02
+359,coupling factor,H03
+360,crank,D01
+361,crank,D05
+362,crank,F42
+363,crystal thin,H01
+364,crystal thin,H03
+365,curing resin composition,C08
+366,cut from stack,A01
+367,cyanoacrylate polymer,B41
+368,cyclic alcohols,C07
+369,cyclic alcohols,C10
+370,dac system,H03
+371,data output circuit,H03
+372,data tree,G06
+373,decompressor,G01
+374,decompressor,H04
+375,decoy oligonucleotide,C12
+376,decreased power,H01
+377,define by memory,G06
+378,define panel,B65
+379,define panel,C02
+380,deflect light,H01
+381,deflect light,H04
+382,demodulator,B65
+383,demodulator,F01
+384,demodulator,H02
+385,demodulator,H03
+386,dental aligners,A61
+387,dental aligners,B65
+388,derived class,G06
+389,descriptive term,G01
+390,deteriorated,B23
+391,deteriorated,C21
+392,deteriorated,E01
+393,deteriorated,E02
+394,deteriorated,G01
+395,deteriorated,G06
+396,deteriorated,H04
+397,determine from analysis,H04
+398,dicy,C08
+399,diesel fuel tank,F02
+400,different circumferential positions,G01
+401,different circumferential positions,G02
+402,different conductivity,H02
+403,different conductivity,H03
+404,diffuse in substrate,A61
+405,digital multimeters,G01
+406,dihalo compound,C07
+407,dimensional location,A61
+408,dimensional location,A63
+409,dimensional location,E02
+410,dimensional location,F41
+411,dimensional location,G01
+412,dimple arrangement,A63
+413,direct received light,H04
+414,disk type recording medium,G11
+415,disperse in plastic material,B29
+416,disperse in plastic material,C01
+417,dispersed powder,B29
+418,dispersed powder,C04
+419,displacement mechanism,A24
+420,displacement mechanism,A47
+421,displacement mechanism,B41
+422,displacement mechanism,B60
+423,displacement mechanism,B62
+424,displacement mechanism,B66
+425,displacement mechanism,F01
+426,display different pictures,G02
+427,display different pictures,H04
+428,display object,A63
+429,display object,G01
+430,display object,G04
+431,dissolve in addition,B08
+432,dissolve in glycol,C09
+433,dissolve in solvent system,C09
+434,dissolving,B67
+435,dissolving,C22
+436,dissolving,D06
+437,dissolving,G03
+438,dissolving,G05
+439,dissolving,G21
+440,distributor pipe,A01
+441,distributor pipe,B01
+442,distributor pipe,F24
+443,distributor pipe,F25
+444,dna strand,C07
+445,dna strand,C12
+446,dna strand,G01
+447,dna strand,G06
+448,donor plasmid,A01
+449,donor plasmid,A61
+450,donor plasmid,C12
+451,double planetary gear,B29
+452,double planetary gear,B60
+453,double planetary gear,F16
+454,drainage,A01
+455,drainage,B21
+456,drainage,F22
+457,drive balls,B05
+458,drive balls,F16
+459,dry coating composition1,A23
+460,dry corn,C12
+461,dual clutch,B60
+462,dual clutch,B62
+463,dual clutch,F02
+464,dual clutch,F16
+465,duplex device,H04
+466,ecn,G01
+467,ecn,H04
+468,effective storage,B01
+469,effective storage,G01
+470,el display,C23
+471,el display,G02
+472,el display,H01
+473,el display,H04
+474,elastic assembly,A43
+475,elastic assembly,B05
+476,elastic assembly,E04
+477,elastic assembly,F16
+478,elastic repulsive,H01
+479,electric field intensities,A61
+480,electric starter,A01
+481,electric starter,B62
+482,electric starter,F16
+483,electric starter,F23
+484,electric starter,H02
+485,electrical current distribution,G01
+486,electromagnetic input,G01
+487,electromagnetic radiation source,A22
+488,electromagnetic radiation source,A41
+489,electromagnetic radiation source,B65
+490,electromagnetic radiation source,G02
+491,elevation view,A21
+492,elevation view,B25
+493,elevation view,B63
+494,elevation view,B66
+495,elevation view,C10
+496,elevation view,D06
+497,elevation view,E06
+498,elevation view,F24
+499,elevation view,G01
+500,elevation view,H01
+501,embedding groove,B25
+502,embedding groove,F23
+503,embossing portion,B44
+504,encapsulated pigment,C08
+505,encapsulated pigment,C09
+506,encapsulated pigment,D21
+507,enclose with openings,F21
+508,encode form,H04
+509,end of bars,D03
+510,end pins,A44
+511,end pins,F16
+512,end pins,G10
+513,end pins,H01
+514,energy storage spring,B41
+515,energy storage spring,D03
+516,energy storage spring,G04
+517,energy storage spring,H01
+518,energy storage spring,H02
+519,engage clamp,H01
+520,engage in guide slot,B23
+521,equip with blocks,B23
+522,equip with blocks,B27
+523,equipment unit,A63
+524,equipment unit,B01
+525,equipment unit,H01
+526,equipment unit,H02
+527,equivalent molar,B01
+528,equivalent molar,C01
+529,estimated amount,F02
+530,estimated amount,G06
+531,exclusion limit,C07
+532,exhibit symmetry,B23
+533,exhibit symmetry,H01
+534,exit electrode,B64
+535,expandable intraluminal,A61
+536,expandable scaffold,A61
+537,expandable scaffold,E04
+538,extend areas,A24
+539,extend areas,H01
+540,extend arrangement,B23
+541,extend from groove bottom,B60
+542,external boundary,C12
+543,extracting process,C13
+544,extraction location,B29
+545,fall to low value,B60
+546,fan,A01
+547,fan,B61
+548,fan,G03
+549,fan rotation speed,F01
+550,fan rotation speed,F16
+551,faucet assembly,A22
+552,faucet assembly,A47
+553,faucet assembly,B65
+554,faucet assembly,E03
+555,faucet assembly,F16
+556,faucet assembly,G05
+557,fdi,G01
+558,feed control valve,B23
+559,feed control valve,B24
+560,feed control valve,F25
+561,feed control valve,F41
+562,fence post,B23
+563,fence post,B29
+564,fence post,B41
+565,fence post,E04
+566,fence post,F21
+567,fence post,G06
+568,fiber slack,H04
+569,fidelity,H02
+570,fidelity,H03
+571,filled interior,A61
+572,filled interior,B29
+573,final roll,B41
+574,finger actuator,B23
+575,finger actuator,B25
+576,finger actuator,B65
+577,finger actuator,E05
+578,fire cartridges,C06
+579,fire cartridges,F42
+580,fire ring,A47
+581,fire ring,E04
+582,fire ring,F24
+583,fire ring,F27
+584,fit within perimeter,B01
+585,flexible belt,A01
+586,flexible belt,A41
+587,flexible belt,A47
+588,flexible belt,A63
+589,flexible belt,B61
+590,flexible belt,B65
+591,flexible belt,D06
+592,flexible belt,E01
+593,flexible belt,G04
+594,flexible glass substrate,B29
+595,flexible glass substrate,B32
+596,flexible glass substrate,B65
+597,flexible glass substrate,C03
+598,flexible membrane,A46
+599,flexible membrane,B01
+600,flexible membrane,B21
+601,flexible membrane,B22
+602,flexible membrane,C02
+603,flexible membrane,C12
+604,flexible membrane,E01
+605,flexible membrane,H01
+606,flexible membrane,H02
+607,flexible shunt,H01
+608,flow openings,A21
+609,flow openings,F04
+610,flow openings,F24
+611,flow openings,G01
+612,fluid flow source,A61
+613,fluid flow source,G01
+614,fluorinated olefin,C08
+615,flux regulator,C23
+616,flux regulator,H01
+617,flux regulator,H02
+618,foot side,A43
+619,form as body,F16
+620,form as body,G02
+621,form as body,H04
+622,form between direction,H03
+623,form by electroforming,D01
+624,form cutter,B22
+625,form cutter,B27
+626,form rivets,B21
+627,form tables,B41
+628,form trench isolation,H01
+629,fountain head,A61
+630,fountain head,B05
+631,fountain head,B67
+632,fountain head,E03
+633,fractionate portion,C13
+634,frame handle,A01
+635,frame handle,A41
+636,frame handle,B27
+637,frame handle,D05
+638,free diameter,B21
+639,free fatty acid,A21
+640,free fatty acid,A23
+641,free fatty acid,B01
+642,free fatty acid,C08
+643,free fatty acid,C10
+644,free fatty acid,C11
+645,free fatty acid,C12
+646,friction lock,A61
+647,friction lock,B62
+648,friction lock,E05
+649,friction lock,E21
+650,ftir spectrometer,G02
+651,further additional elements,B81
+652,fused layer,B29
+653,gas leak,A62
+654,gas leak,F16
+655,gas leak,F17
+656,gas leak,F42
+657,gas leak,G08
+658,gasoline blend,C10
+659,gate insulator film,H01
+660,gate location,G01
+661,general anesthesia,A61
+662,generate control signal,B60
+663,generate in layer,G02
+664,generate in layer,H01
+665,generated electrical power,F02
+666,generated electrical power,H02
+667,glass part,B41
+668,glass part,C03
+669,glass part,G04
+670,glycitin,B01
+671,glycitin,C07
+672,gnd,E02
+673,gnd,G01
+674,gnd,H01
+675,gnd,H03
+676,gold alloy,A61
+677,gold alloy,B01
+678,gold alloy,C22
+679,gripping layer,B65
+680,gripping layer,D05
+681,gripping layer,G03
+682,guided projectiles,G05
+683,guiding elements,E01
+684,gutter hanger,A47
+685,gutter hanger,E04
+686,gutters,A46
+687,gutters,B27
+688,gutters,B28
+689,gutters,B60
+690,gutters,B63
+691,gutters,B66
+692,gutters,E01
+693,gutters,E03
+694,gutters,G02
+695,halocarbyl,C07
+696,halocarbyl,C08
+697,hanging ring,A46
+698,hanging ring,A47
+699,hanging ring,B65
+700,hanging ring,E21
+701,hardware blocks,G06
+702,hardware blocks,H04
+703,hear aid parameters,H04
+704,heart pacemaker,A61
+705,heart pacemaker,H01
+706,heighth,E04
+707,helicase activity,C12
+708,her2 targeted,A61
+709,herpes,A61
+710,herpes,C07
+711,herpes,C12
+712,herpes,G01
+713,hexahydro,C09
+714,hexahydro,C13
+715,high frequency welding,A43
+716,high frequency welding,B29
+717,high frequency welding,B65
+718,high frequency welding,D06
+719,high gradient magnetic separators,A47
+720,high gradient magnetic separators,B03
+721,high gradient magnetic separators,C02
+722,high gradient magnetic separators,E01
+723,high gradient magnetic separators,F02
+724,hinge mechanisms,A47
+725,hinge mechanisms,E05
+726,hinge mechanisms,H01
+727,hot heat transfer,F22
+728,hrb,H04
+729,hybrid bearing,B29
+730,hybrid bearing,F04
+731,hybrid bearing,F16
+732,hybrid system,B62
+733,hybrid system,C07
+734,hybrid system,H01
+735,hydrocarbyl substituted succinic,C07
+736,hydrocarbyl substituted succinic,C10
+737,idle mixture,F02
+738,illumination condition,B60
+739,illumination condition,G03
+740,image signal generation,H04
+741,imaging axis,A61
+742,imaging axis,G01
+743,imaging axis,G02
+744,imidazo,A01
+745,imidazo,A61
+746,imidazo,C09
+747,imidazo,C12
+748,imidazo,G03
+749,implant pellets,A61
+750,implement with plurality,A01
+751,include contact switch,E04
+752,include displacement,B23
+753,include retaining elements,A45
+754,increase hardness,C08
+755,increase hardness,G03
+756,index with location,G06
+757,indoor room,F24
+758,inflow channels,D21
+759,ingress buffer,G06
+760,ingress buffer,H04
+761,inner closed,B24
+762,inner closed,E04
+763,inner closed,F16
+764,inner contact,B23
+765,inner contact,B60
+766,inner contact,B67
+767,inner contact,D21
+768,inner contact,F16
+769,inner contact,H01
+770,inner fluid conduit,F15
+771,inner fluid conduit,G01
+772,inner peripheral,A63
+773,inner peripheral,D01
+774,inner peripheral,F27
+775,inner peripheral,G11
+776,inorganic hybrid,A61
+777,inorganic hybrid,B01
+778,inorganic hybrid,B32
+779,inorganic hybrid,H01
+780,insert into trachea,A61
+781,insert nucleic acid,C12
+782,insertion losses,G01
+783,insertion losses,H03
+784,instruction processing,G06
+785,instruction processing,H04
+786,insulation sleeve,C06
+787,insulation sleeve,D01
+788,insulation sleeve,F28
+789,insulation sleeve,H01
+790,interconnect site,H01
+791,interconnected levers,F16
+792,interlock section,E04
+793,intermediate connection,B41
+794,intermediate connection,E05
+795,intermediate connection,G04
+796,intermediate speed,D01
+797,intermediate speed,F02
+798,intermediate speed,F16
+799,intermediate speed,H04
+800,intruder detection,B60
+801,intruder detection,F41
+802,intruder detection,G08
+803,invertebrate,A01
+804,invertebrate,A23
+805,invertebrate,A61
+806,invertebrate,C12
+807,invertebrate,G16
+808,involve etherification,C07
+809,inward travel,G09
+810,issued patent,F23
+811,kalanchoe plant,A01
+812,key arm,G09
+813,key arm,G10
+814,key arm,H04
+815,key recesses,H01
+816,killed,C12
+817,killed,G02
+818,kraft cooking,C01
+819,kraft cooking,D21
+820,labeled ligand,C07
+821,laminated wall,C03
+822,laminated wall,G06
+823,lamination method,B32
+824,lamination method,G02
+825,laser beam optical,G02
+826,lateral power,H01
+827,length light,G03
+828,leveller,B21
+829,leveller,F02
+830,life testing,A61
+831,lift element,B62
+832,lift element,D01
+833,lift element,E02
+834,lifting finger,A01
+835,lifting finger,B41
+836,lifting finger,G04
+837,lifting finger,G11
+838,lifting load,B66
+839,lifting load,E01
+840,light sensitive composition,C07
+841,ligninases,C12
+842,linear change,G02
+843,linear systems,B23
+844,linear systems,G06
+845,liquid reservoirs,B01
+846,liquid reservoirs,F01
+847,load distribution system,B63
+848,load distribution system,G01
+849,locking formation,A47
+850,locking formation,B23
+851,locking formation,B24
+852,locking formation,B60
+853,loudspeaker arrays,H04
+854,low soc,H01
+855,lower stretches,F03
+856,lower trunnion,B60
+857,lower trunnion,B64
+858,lower trunnion,E02
+859,lower trunnion,F16
+860,machine end,B41
+861,machine end,E21
+862,magnetically actuated,A47
+863,magnetically actuated,A63
+864,magnetically actuated,F02
+865,magnetically actuated,F04
+866,magnetically actuated,F16
+867,magnetically actuated,G07
+868,magnetically actuated,H01
+869,main lane,E01
+870,main lane,G08
+871,main linear,G03
+872,main pulse laser,H01
+873,main pulse laser,H05
+874,maintain oxygen level,C10
+875,make of high density polyethylene,H02
+876,make of slabs,E04
+877,make of slabs,E21
+878,maleic anhydride grafted,C08
+879,maleic anhydride grafted,C09
+880,map display system,G09
+881,mat forming,B28
+882,mat sections,A01
+883,mat sections,A63
+884,mat sections,B07
+885,mat sections,B27
+886,material formation,A21
+887,material formation,H01
+888,material item,A41
+889,material item,A47
+890,material item,B41
+891,material item,H04
+892,materially less,C03
+893,materially less,F22
+894,materially less,F42
+895,materially less,H01
+896,mayenite,B22
+897,mayenite,C01
+898,mayenite,F27
+899,mayenite,H01
+900,measure by probe,G01
+901,measure surface temperature,B22
+902,measure surface temperature,D06
+903,measure surface temperature,F23
+904,measure surface temperature,G01
+905,measure surface temperature,H01
+906,medical product,C12
+907,medical product,F16
+908,medical product,F41
+909,medical product,G06
+910,melanocyte,A61
+911,melanocyte,C12
+912,melanocyte,C14
+913,melodies,A46
+914,melodies,G10
+915,melt coating,B05
+916,melt coating,B41
+917,melt coating,D21
+918,membrane vesicle,A61
+919,mentioned conveyor,A21
+920,mentioned conveyor,B22
+921,metal phase,A62
+922,metal phase,B01
+923,metal phase,B22
+924,metal phase,C10
+925,metal phase,C22
+926,metal phase,G21
+927,metallic binder,C09
+928,metallic binder,H01
+929,metallic cartridges,F42
+930,metastatic bone disease,A61
+931,metatarsal bones,A41
+932,metatarsal bones,A43
+933,metatarsal bones,A61
+934,methoxyethylamine,C07
+935,microchambers,F16
+936,microchambers,G01
+937,microchambers,H01
+938,modify before use,A61
+939,moisture absorption rate,D06
+940,moisture proof film,H05
+941,monocrystalline semiconductor,B23
+942,monocrystalline semiconductor,B81
+943,monocrystalline semiconductor,G02
+944,monocrystalline semiconductor,H01
+945,monocrystalline semiconductor,H04
+946,morpholin,A61
+947,morpholin,C07
+948,mount on cylinders,B41
+949,mount on cylinders,D04
+950,move to range,F15
+951,move towards left,B28
+952,move towards left,D05
+953,movement directions,B23
+954,movement directions,B60
+955,multiplexed data,H01
+956,multiplexed data,H03
+957,multiplexed data,H04
+958,nail strip,B21
+959,nail strip,B28
+960,nail strip,F16
+961,negative collector,C23
+962,network load information,H04
+963,neural stimulation,A61
+964,neural stimulation,H04
+965,new freely flowering,A01
+966,non lamellar,A61
+967,non polar carrier,C09
+968,noncollinear,B28
+969,noncollinear,G01
+970,noncollinear,G02
+971,normal base,B41
+972,notch base,H01
+973,nozzle receptacle,B01
+974,nozzle receptacle,B29
+975,nvm array,G11
+976,nvm array,H01
+977,nvm array,H03
+978,obstacle course,A63
+979,obstacle course,B60
+980,obstacle course,E04
+981,obstacle course,G09
+982,obtain from fractions,C07
+983,offset table,G06
+984,offset table,H04
+985,oil tankers,B63
+986,oil tankers,C12
+987,oil tankers,E03
+988,olefin production,B01
+989,olefin production,C10
+990,opaque walls,B29
+991,opc drum,F16
+992,opc drum,G02
+993,opc drum,G03
+994,opening assembly,B60
+995,opening assembly,B65
+996,opening assembly,E05
+997,opening assembly,E06
+998,operate by vacuum,B60
+999,operate internal combustion engine,F01
+1000,operate internal combustion engine,F02
+1001,operating channel,A61
+1002,operating channel,G07
+1003,operating channel,H04
+1004,operational height,B61
+1005,operator identification information,H04
+1006,opposing walls,A46
+1007,opposing walls,A47
+1008,opposing walls,B60
+1009,opposing walls,F26
+1010,optical glasses,C03
+1011,optical glasses,G02
+1012,optimal quantity,A01
+1013,organic alkaline,C11
+1014,organic starting,B61
+1015,organic starting,C07
+1016,organic starting,C25
+1017,orthogonal acceleration,H01
+1018,orthogonal acceleration,H05
+1019,outer bar,A47
+1020,outer bar,B66
+1021,outer bar,E01
+1022,outer bar,E05
+1023,outer cylindrical electrode,F03
+1024,output center,B62
+1025,output center,D05
+1026,oven batteries,C10
+1027,overall condition,B62
+1028,overall weight,B60
+1029,overall weight,C01
+1030,overall weight,C11
+1031,overall weight,D06
+1032,overflow compartment,B22
+1033,overflow compartment,F16
+1034,overflow device,A47
+1035,overflow device,A61
+1036,overflow device,E03
+1037,overflow device,E04
+1038,oxidizing enzyme,B27
+1039,oxidizing enzyme,C09
+1040,oxidizing enzyme,C11
+1041,oxidizing enzyme,C12
+1042,oxygen carrier,B01
+1043,oxygen carrier,C06
+1044,oxygen carrier,C14
+1045,oxygen carrier,F23
+1046,oxygen lean,C01
+1047,oxygen lean,C10
+1048,oxygen lean,F25
+1049,oxygen value,F02
+1050,package member,A45
+1051,package member,A61
+1052,package member,B65
+1053,page file,G09
+1054,page file,H04
+1055,panel frame,A01
+1056,panel frame,C02
+1057,panel frame,C25
+1058,panel frame,E05
+1059,panel frame,E06
+1060,panel frame,F16
+1061,panel frame,F24
+1062,panel frame,H04
+1063,paraboloid,A61
+1064,paraboloid,B61
+1065,paraboloid,E21
+1066,paraboloid,F21
+1067,paraboloid,F24
+1068,paraboloid,G01
+1069,parallel force,F28
+1070,parallel orientation,A01
+1071,parallel orientation,B05
+1072,parallel orientation,D04
+1073,parallel orientation,G01
+1074,parallel orientation,G03
+1075,parallel orientation,G06
+1076,partial elliptical,F21
+1077,particular operational,G01
+1078,particular operational,G06
+1079,pen based computer,B65
+1080,pen based computer,G06
+1081,pen based computer,H04
+1082,pendent,A43
+1083,pendent,A61
+1084,pendent,B21
+1085,pendent,B27
+1086,pendent,B29
+1087,pendent,B62
+1088,pendent,B65
+1089,pendent,D01
+1090,pendent,F04
+1091,peptide precursor,C07
+1092,perfluoroalkyl group,A62
+1093,perfluoroalkyl group,A63
+1094,perfluoroalkyl group,B23
+1095,perfluoroalkyl group,C07
+1096,perfluoroalkyl group,C09
+1097,perfluoroalkyl group,C11
+1098,perfluoroalkyl group,G03
+1099,perform desired action,B23
+1100,perform working operations,B21
+1101,perform working operations,B23
+1102,peripheral nervous system stimulation,A61
+1103,personage,A47
+1104,personage,A63
+1105,photocleavable linker,C12
+1106,photodefinable,B41
+1107,photodefinable,H05
+1108,physical transport medium,G06
+1109,physical transport medium,H04
+1110,pick element,A63
+1111,pick element,E21
+1112,pick element,G10
+1113,pictorial image,A63
+1114,pictorial image,G01
+1115,pictorial image,G09
+1116,pillaring,B01
+1117,pillaring,F23
+1118,pipe box,A01
+1119,pipe box,C10
+1120,pipe box,C21
+1121,place to set,H04
+1122,planar gear sets,F16
+1123,plug nozzle,B01
+1124,ply tire,B29
+1125,ply tire,B60
+1126,pneumatic logic,B23
+1127,pneumatic logic,B27
+1128,pneumatic logic,F15
+1129,pneumatic logic,F28
+1130,polls,B21
+1131,polls,G01
+1132,polls,G06
+1133,polls,H04
+1134,polyglycolic acid,C04
+1135,polyglycolic acid,D01
+1136,polymeric ester,C07
+1137,polymeric ester,C08
+1138,portable radio communication,H01
+1139,portable radio communication,H04
+1140,position enclosure,B65
+1141,positioning sheet,A43
+1142,post hole diggers,A01
+1143,power conversion control,H02
+1144,pre established parameters,A43
+1145,pre trip,B60
+1146,pre trip,F25
+1147,pre trip,H01
+1148,predetermined acceleration,B27
+1149,predetermined acceleration,B66
+1150,predetermined acceleration,F42
+1151,predetermined acceleration,G01
+1152,predetermined relatively,B61
+1153,predetermined relatively,H01
+1154,preliminary dispersion,G03
+1155,preregistration,G03
+1156,pressing state,G03
+1157,pressure detection,A61
+1158,pressure detection,B05
+1159,pressure detection,D03
+1160,pressure detection,E02
+1161,pressure detection,F03
+1162,pressure detection,F23
+1163,pressure detection,G01
+1164,pressure detection,H01
+1165,pressure failure,F02
+1166,pressure signal,A01
+1167,pressure signal,B61
+1168,pressure signal,B65
+1169,pressure signal,B81
+1170,pressure signal,F03
+1171,pressure signal,F22
+1172,pressure signal,F24
+1173,pressure signal,G01
+1174,pressure signal,G06
+1175,presynaptic,A01
+1176,presynaptic,H01
+1177,prevent accidental separation,A44
+1178,previous batch,D01
+1179,previously captured image,G01
+1180,previously captured image,H04
+1181,produce by pump,B67
+1182,produce by recombinant dna technology,C12
+1183,produce liquid hydrocarbons,C01
+1184,produce liquid hydrocarbons,C10
+1185,produce thin layers,B05
+1186,produce thin layers,G01
+1187,project onto surface,B03
+1188,project onto surface,B29
+1189,project onto surface,C04
+1190,project onto surface,D06
+1191,project onto surface,G03
+1192,project onto surface,G09
+1193,projection method,B23
+1194,projection method,G04
+1195,prolog,G01
+1196,prolog,G06
+1197,prolog,H03
+1198,prolong span,F16
+1199,proper order,A63
+1200,proper order,H04
+1201,propyl bromide,C09
+1202,propyl bromide,C10
+1203,propyl bromide,C11
+1204,propyl bromide,C23
+1205,protocol component,A46
+1206,protocol component,H04
+1207,protograph,H03
+1208,provide acknowledgement,H01
+1209,provide by terminals,H04
+1210,provide car,B61
+1211,provide for tuning,H01
+1212,provide in amounts,C04
+1213,provide restoring force,E01
+1214,provide restoring force,G11
+1215,provider networks,H04
+1216,psd functions,G06
+1217,psd functions,G07
+1218,pulping apparatus,B02
+1219,pulping apparatus,D06
+1220,pulping apparatus,D21
+1221,pulse width modulated control,G02
+1222,pulsed plasma,C10
+1223,pulsed plasma,F03
+1224,pulsed plasma,H05
+1225,pulverulent material,B22
+1226,pulverulent material,F23
+1227,pulverulent material,G01
+1228,punch face,B05
+1229,punch face,B21
+1230,pushing pin,B60
+1231,pushing pin,F03
+1232,radio wave transmission,B29
+1233,radio wave transmission,G01
+1234,radio wave transmission,H01
+1235,radio wave transmission,H04
+1236,rear adjustment,E05
+1237,receive acceleration,G05
+1238,receive via surface,B05
+1239,receive via surface,H01
+1240,receive via surface,H03
+1241,receiver shaft,E21
+1242,receiver shaft,F41
+1243,receiver shaft,G05
+1244,receiver shaft,H04
+1245,recover from reaction product,C07
+1246,recover from reaction product,C08
+1247,reduction factor,C03
+1248,reduction factor,G06
+1249,reduction factor,H01
+1250,reduction factor,H04
+1251,reflect by reflection mirror,G01
+1252,reflection type liquid crystal display,G02
+1253,regeneration agent,B01
+1254,regeneration agent,D06
+1255,register digital converter,H03
+1256,registration hole,B41
+1257,relational formula,B61
+1258,remain below threshold value,B60
+1259,remaining legs,B61
+1260,renewable power,A01
+1261,renewable power,C10
+1262,renewable power,F03
+1263,renewable power,F16
+1264,renewable power,F24
+1265,renewable power,H02
+1266,request buffer,F02
+1267,request buffer,H04
+1268,resilient metal,A01
+1269,resilient metal,A43
+1270,resilient metal,B65
+1271,resilient metal,E01
+1272,resilient metal,E06
+1273,resilient metal,F25
+1274,resilient spring clip,A61
+1275,resilient spring clip,F21
+1276,respective emitter,H03
+1277,retainer bolts,B29
+1278,retaining insert,A44
+1279,retaining insert,B65
+1280,retaining insert,F01
+1281,retaining insert,H01
+1282,retinal tissue,A61
+1283,retinal tissue,C08
+1284,retinal tissue,C12
+1285,retorting process,C10
+1286,return structure,B62
+1287,return structure,D01
+1288,return structure,F02
+1289,return structure,F27
+1290,rhodium carbonyl,B01
+1291,rhodium carbonyl,C01
+1292,rhodium carbonyl,C07
+1293,rizatriptan,A61
+1294,rizatriptan,C08
+1295,rna seq,C12
+1296,rna seq,G16
+1297,rocker lever,B21
+1298,rocker lever,B41
+1299,rocker lever,B61
+1300,rocker lever,E05
+1301,roll on workpiece,B21
+1302,roll on workpiece,B23
+1303,rotary electric,B64
+1304,rotary electric,F01
+1305,rotary electric,F02
+1306,rotary section,B21
+1307,rotary section,B23
+1308,rotary section,H01
+1309,rotary section,H05
+1310,rotatable chamber,A23
+1311,rotatable chamber,B01
+1312,rotatable chamber,B05
+1313,rotatable chamber,G01
+1314,rotate on its longitudinal axis,B24
+1315,rotate on its longitudinal axis,E06
+1316,rotation protrusion,A61
+1317,rotation protrusion,F15
+1318,rotation protrusion,F16
+1319,rotor stages,F01
+1320,rotor stages,F02
+1321,rotor stages,F04
+1322,run during interval,G04
+1323,running tally,G08
+1324,salina,A61
+1325,sand formation,C09
+1326,sand formation,E21
+1327,saturated felt,D06
+1328,saturated felt,F16
+1329,saw sensor,F02
+1330,saw sensor,G01
+1331,saw sensor,G06
+1332,saw sensor,H03
+1333,sawtooth waves,G04
+1334,sawtooth waves,G10
+1335,sawtooth waves,H03
+1336,scorch,A24
+1337,scorch,A63
+1338,scorch,C08
+1339,scratch coating,A63
+1340,seal members,B21
+1341,seal members,E02
+1342,seal members,G03
+1343,seal teeth,F01
+1344,seal teeth,F16
+1345,seal teeth,G01
+1346,sealable adhesive,B65
+1347,search indices,G06
+1348,sectional layer,B22
+1349,sectional layer,F42
+1350,sectional layer,G09
+1351,secure to guard,A01
+1352,seeded,A23
+1353,seeded,A61
+1354,seeded,C22
+1355,seeded,H01
+1356,select unit,F04
+1357,select unit,H01
+1358,select unit,H03
+1359,select unit,H04
+1360,selected box,B28
+1361,selected operation,B64
+1362,selected operation,H01
+1363,selected operation,H03
+1364,selected operation,H04
+1365,selection logic,F01
+1366,selection logic,G10
+1367,selection logic,G11
+1368,selection logic,H05
+1369,selectively predetermined,D04
+1370,selectively predetermined,G01
+1371,self resonance frequency,H01
+1372,send to control node,H04
+1373,sensitive photographic,B41
+1374,sensitive photographic,G03
+1375,sensitive photographic,H01
+1376,sequence conservation,C12
+1377,service processing unit,H04
+1378,shannon,D03
+1379,shannon,F28
+1380,shape like tail,A63
+1381,shaped engaging,A41
+1382,shaped engaging,E05
+1383,shaped engaging,F16
+1384,shaped substrates,B24
+1385,shaped substrates,C09
+1386,shaped substrates,H01
+1387,sheet supply roller,B41
+1388,sheet supply roller,B65
+1389,sheet supply roller,H04
+1390,shielded conductor,H01
+1391,shift link,A47
+1392,show in chemical formula,C07
+1393,show in chemical formula,C09
+1394,show in chemical formula,H01
+1395,shunt reactor,G01
+1396,shunt reactor,H01
+1397,shunt reactor,H02
+1398,signal generating compound,C07
+1399,signal sender,H01
+1400,silicide formation,B01
+1401,siloxane based,A01
+1402,siloxane based,A61
+1403,siloxane based,C04
+1404,siloxane based,C08
+1405,siloxane based,D06
+1406,similar absorbent,A47
+1407,single pumping chamber,F04
+1408,sleeve upper,A47
+1409,slip segment,B22
+1410,slip segment,E21
+1411,slip segment,F16
+1412,slip segment,H01
+1413,slot open,A61
+1414,slot open,C22
+1415,smooth outer surface,A45
+1416,smooth outer surface,B29
+1417,smooth outer surface,B60
+1418,smooth outer surface,B63
+1419,smooth outer surface,B65
+1420,smooth outer surface,C21
+1421,smooth outer surface,H01
+1422,soft polymeric,C07
+1423,soft polymeric,H04
+1424,solder member,H01
+1425,source channel,A01
+1426,source channel,A61
+1427,source channel,B05
+1428,source channel,H04
+1429,source voltage,B60
+1430,source voltage,G06
+1431,source voltage,G11
+1432,source voltage,H05
+1433,speed control means,A01
+1434,speed control means,D04
+1435,speed control means,D06
+1436,speed control means,E06
+1437,speed control means,G05
+1438,speed control means,H02
+1439,speed impeller,B01
+1440,sphygmomanometer,A61
+1441,sphygmomanometer,G01
+1442,sphygmomanometer,G05
+1443,sphygmomanometer,G09
+1444,split into flows,F16
+1445,split into flows,H04
+1446,spoke wheels,B60
+1447,sprayed,A62
+1448,sprayed,B21
+1449,sprayed,B41
+1450,sprayed,C09
+1451,sprayed,C12
+1452,sprayed,C21
+1453,sprayed,E04
+1454,sprayed,F16
+1455,sprayed,F23
+1456,spreader body,A01
+1457,spreader body,B60
+1458,spreader body,B66
+1459,square lattice,F16
+1460,square lattice,G21
+1461,square lattice,H01
+1462,square lattice,H03
+1463,stability function,B60
+1464,stabilizer members,A01
+1465,stabilizer members,B60
+1466,stabilizer members,E21
+1467,stabilizer members,F16
+1468,starch component,A23
+1469,starch component,C09
+1470,starch component,D01
+1471,starch component,D06
+1472,stationary rod,A41
+1473,stationary rod,D01
+1474,stationary rod,G01
+1475,steering matrices,H04
+1476,stepped pin,B25
+1477,storage lid,A24
+1478,storage lid,B01
+1479,storage lid,B44
+1480,storage lid,B60
+1481,strand conveyor,B65
+1482,substantially axial,A01
+1483,substantially axial,B60
+1484,substantially axial,C03
+1485,substantially axial,F01
+1486,substantially axial,F16
+1487,substituted carboxylic,C07
+1488,substituted carboxylic,C08
+1489,substituted carboxylic,C10
+1490,substituted carboxylic,D06
+1491,sulfide sulfur,C01
+1492,summits,B23
+1493,summits,B65
+1494,summits,F24
+1495,sun member,F04
+1496,sun member,F16
+1497,superior abrasion,D03
+1498,support grooves,B22
+1499,surface altering agent,C01
+1500,surface altering agent,C04
+1501,surgical gloves,A23
+1502,surgical gloves,B25
+1503,surgical gloves,C04
+1504,surgical gloves,C07
+1505,surgical gloves,C08
+1506,surgical gloves,C10
+1507,surgical gloves,H01
+1508,sustained delivery,A61
+1509,sustained delivery,C12
+1510,switch swm,G02
+1511,synthetic training,G06
+1512,tap portion,A61
+1513,tap portion,B23
+1514,tap portion,H01
+1515,target pointer,F41
+1516,target pointer,G06
+1517,terephthalate polyester,B29
+1518,terephthalate polyester,C08
+1519,terephthalate polyester,C09
+1520,terephthalate polyester,D06
+1521,terephthalate polyester,H01
+1522,tetracene,C07
+1523,tetracene,C09
+1524,tetracene,C12
+1525,therapeutic applications,C12
+1526,therapeutic applications,G21
+1527,therapeutic immune,C07
+1528,time digital signal,H03
+1529,time domain equalization,H03
+1530,toolpaths,B22
+1531,toolpaths,B29
+1532,toolpaths,D03
+1533,toolpaths,G05
+1534,tooth spaces,F04
+1535,tooth spaces,F16
+1536,tooth spaces,G01
+1537,tooth spaces,G04
+1538,top surface member,H01
+1539,track temperature,E02
+1540,track temperature,G05
+1541,transfer onto substrate,B05
+1542,transfer onto substrate,B41
+1543,transfer onto substrate,G03
+1544,transfer onto substrate,G11
+1545,transistor m6,G05
+1546,transition member,E04
+1547,transition member,F02
+1548,transition member,G21
+1549,transmit alarm,G06
+1550,transmit alarm,G08
+1551,transmit over interface,G11
+1552,transmit over interface,H04
+1553,transmit to platform,B66
+1554,transmit to platform,H04
+1555,transparent liquid crystal display,G09
+1556,transport from layer,B29
+1557,transport from layer,D04
+1558,travele in direction,A01
+1559,travele in direction,B23
+1560,travele in direction,B61
+1561,travele in direction,F04
+1562,travele in direction,F42
+1563,travele in direction,G01
+1564,travele in direction,G08
+1565,treatment programs,F22
+1566,triethylammonium salt,C07
+1567,triethylammonium salt,C12
+1568,trommel screen,B02
+1569,trommel screen,B03
+1570,trommel screen,B07
+1571,tsr,C01
+1572,tsr,C04
+1573,tubular billet,B21
+1574,tubular latch,E05
+1575,tunneling capacitor,G11
+1576,turbine machine,B64
+1577,turbine machine,F01
+1578,turbine machine,F03
+1579,type parameter,G06
+1580,type parameter,H04
+1581,undulation,B31
+1582,undulation,B65
+1583,undulation,H03
+1584,unit inlet,B01
+1585,unit inlet,E01
+1586,unit inlet,F16
+1587,update test cases,G06
+1588,upper clamp arm,A01
+1589,upper clamp arm,A61
+1590,upper clamp arm,F16
+1591,upper series,B41
+1592,upper series,B66
+1593,use as cooling fluid,F24
+1594,use balance,A63
+1595,use in positioning,G01
+1596,use physically unclonable functions,H04
+1597,use solid materials,B22
+1598,use solid materials,B29
+1599,use solid materials,G03
+1600,use voltage converter,F02
+1601,useful metal,C07
+1602,useful metal,C22
+1603,vacuum cups,B67
+1604,vacuum cups,E01
+1605,vacuum cups,E04
+1606,val ile,C07
+1607,vco circuit,H03
+1608,vegfr2,A61
+1609,vegfr2,C07
+1610,vegfr2,C12
+1611,verifiable,G01
+1612,verifiable,G09
+1613,verifiable,H04
+1614,vertical chute,B65
+1615,vertical chute,C21
+1616,vertical chute,D01
+1617,vertical chute,G07
+1618,vertical comb,B81
+1619,vibratory actuator,A61
+1620,vibratory actuator,E02
+1621,vibratory actuator,H02
+1622,vibratory actuator,H04
+1623,video light,G03
+1624,video lines,G09
+1625,video lines,H04
+1626,voltage patterns,G06
+1627,voltage values,B01
+1628,voltage values,B41
+1629,voltage values,H02
+1630,wafer inspection system,G01
+1631,wake up procedures,G06
+1632,walking aids,A45
+1633,walking aids,B62
+1634,walnut oil,A61
+1635,walnut oil,C08
+1636,water infiltration,B01
+1637,water infiltration,E06
+1638,water infiltration,H01
+1639,water intake,A01
+1640,water intake,A47
+1641,water intake,B63
+1642,water intake,B67
+1643,water intake,F03
+1644,water intake,F16
+1645,water intake,F22
+1646,water intake,F24
+1647,water intake,G01
+1648,water product,B65
+1649,water product,C10
+1650,water product,C25
+1651,water product,F04
+1652,water product,H01
+1653,water propeller,B01
+1654,water propeller,B63
+1655,water propeller,B64
+1656,water propulsion device,B63
+1657,water propulsion device,F01
+1658,wave generation,A63
+1659,wave generation,E04
+1660,wave generation,F21
+1661,wave generation,F42
+1662,wave generation,H01
+1663,wave generation,H03
+1664,wearability,A61
+1665,wearability,B21
+1666,web transfer,B29
+1667,web transfer,B31
+1668,web transfer,B41
+1669,web transfer,D21
+1670,wedge device,E01
+1671,wedge device,F16
+1672,wedge device,G02
+1673,wedge device,H01
+1674,weldability,B65
+1675,weldability,C08
+1676,weldability,C22
+1677,weldability,C23
+1678,weldability,C25
+1679,weldability,G01
+1680,weldability,H01
+1681,well pump,B24
+1682,well pump,D01
+1683,well pump,E03
+1684,well pump,E21
+1685,well pump,F03
+1686,well pump,F04
+1687,well pump,H01
+1688,whose identity,G06
+1689,wire grid polarization,B29
+1690,wire grid polarization,G01
+1691,wire grid polarization,G02
+1692,wire grid polarization,H01
+1693,wire grid polarization,H04
+1694,wiring trough,F16
+1695,wiring trough,H02
+1696,wood article,B05
+1697,wood article,B27
+1698,wood article,B44

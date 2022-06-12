@@ -7,8 +7,8 @@
 BATCH=64
 LR=00005
 TEMP=007
-AUG=""
-PREAUG=""
+AUG="all"
+PREAUG="all"
 python3 run_finetune_siamese.py \
     --train_file="/w/284/lydiachau/phrase-matching-nlp/data/processed/patent/contrastive/patent-train.pkl.gz" \
     --do_train \
@@ -20,7 +20,8 @@ python3 run_finetune_siamese.py \
 	--tokenizer="roberta-base" \
 	--grad_checkpoint=True \
     --output_dir /your_path/contrastive-product-matching/reports/contrastive-ft-siamese/patent-ssv-$AUG$BATCH-$PREAUG$LR-$TEMP-frozen-roberta-base/ \
-	--per_device_train_batch_size=64 \
+	--per_device_train_batch_size=128 \
+	--per_device_eval_batch_size=128 \
 	--learning_rate=5e-05 \
 	--weight_decay=0.01 \
 	--num_train_epochs=50 \
